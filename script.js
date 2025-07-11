@@ -33,7 +33,7 @@ const checkWin = ()=>{
            (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && 
            (boxtext[e[0]].innerText !== "") ){
 
-            document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won!";
+            document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won Yay!!";
             isgameover = true;
 
             // Stop background music and play gameover sound
